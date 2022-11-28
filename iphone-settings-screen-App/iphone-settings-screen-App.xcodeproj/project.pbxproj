@@ -11,6 +11,9 @@
 		40BCC8E02934942F00DFE4E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC8DF2934942F00DFE4E7 /* ViewController.swift */; };
 		40BCC8E52934943000DFE4E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BCC8E42934943000DFE4E7 /* Assets.xcassets */; };
 		40BCC8E82934943000DFE4E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BCC8E62934943000DFE4E7 /* LaunchScreen.storyboard */; };
+		40BCC8F82934978A00DFE4E7 /* SettingsSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC8F72934978A00DFE4E7 /* SettingsSections.swift */; };
+		40BCC8FA293497AF00DFE4E7 /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC8F9293497AF00DFE4E7 /* SettingsModel.swift */; };
+		40BCC8FD293497EF00DFE4E7 /* ExtensionSettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC8FC293497EF00DFE4E7 /* ExtensionSettingsModel.swift */; };
 		A82DF62270EEB941D038B8E7 /* Pods_iphone_settings_screen_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B2DB3A90F67B403898B310 /* Pods_iphone_settings_screen_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +25,9 @@
 		40BCC8E42934943000DFE4E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40BCC8E72934943000DFE4E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40BCC8E92934943000DFE4E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BCC8F72934978A00DFE4E7 /* SettingsSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSections.swift; sourceTree = "<group>"; };
+		40BCC8F9293497AF00DFE4E7 /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		40BCC8FC293497EF00DFE4E7 /* ExtensionSettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionSettingsModel.swift; sourceTree = "<group>"; };
 		463455D7297623ADECACA94F /* Pods-iphone-settings-screen-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone-settings-screen-App.debug.xcconfig"; path = "Target Support Files/Pods-iphone-settings-screen-App/Pods-iphone-settings-screen-App.debug.xcconfig"; sourceTree = "<group>"; };
 		F39006B65699DC554886CC6C /* Pods-iphone-settings-screen-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone-settings-screen-App.release.xcconfig"; path = "Target Support Files/Pods-iphone-settings-screen-App/Pods-iphone-settings-screen-App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,7 +50,6 @@
 				463455D7297623ADECACA94F /* Pods-iphone-settings-screen-App.debug.xcconfig */,
 				F39006B65699DC554886CC6C /* Pods-iphone-settings-screen-App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -115,6 +120,9 @@
 		40BCC8F42934948B00DFE4E7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				40BCC8F72934978A00DFE4E7 /* SettingsSections.swift */,
+				40BCC8F9293497AF00DFE4E7 /* SettingsModel.swift */,
+				40BCC8FC293497EF00DFE4E7 /* ExtensionSettingsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -256,7 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BCC8FA293497AF00DFE4E7 /* SettingsModel.swift in Sources */,
+				40BCC8FD293497EF00DFE4E7 /* ExtensionSettingsModel.swift in Sources */,
 				40BCC8E02934942F00DFE4E7 /* ViewController.swift in Sources */,
+				40BCC8F82934978A00DFE4E7 /* SettingsSections.swift in Sources */,
 				40BCC8DC2934942F00DFE4E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
