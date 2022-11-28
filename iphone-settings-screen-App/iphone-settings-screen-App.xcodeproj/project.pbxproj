@@ -17,6 +17,7 @@
 		40BCC8FF2934983300DFE4E7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC8FE2934983300DFE4E7 /* SettingsView.swift */; };
 		40BCC9012934985300DFE4E7 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC9002934985300DFE4E7 /* SettingTableViewCell.swift */; };
 		40BCC9032934987B00DFE4E7 /* SettingSomeInfoOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC9022934987B00DFE4E7 /* SettingSomeInfoOption.swift */; };
+		40BCC9052934989B00DFE4E7 /* SettingTableFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BCC9042934989B00DFE4E7 /* SettingTableFigure.swift */; };
 		A82DF62270EEB941D038B8E7 /* Pods_iphone_settings_screen_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03B2DB3A90F67B403898B310 /* Pods_iphone_settings_screen_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		40BCC8FE2934983300DFE4E7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		40BCC9002934985300DFE4E7 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		40BCC9022934987B00DFE4E7 /* SettingSomeInfoOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSomeInfoOption.swift; sourceTree = "<group>"; };
+		40BCC9042934989B00DFE4E7 /* SettingTableFigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableFigure.swift; sourceTree = "<group>"; };
 		463455D7297623ADECACA94F /* Pods-iphone-settings-screen-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone-settings-screen-App.debug.xcconfig"; path = "Target Support Files/Pods-iphone-settings-screen-App/Pods-iphone-settings-screen-App.debug.xcconfig"; sourceTree = "<group>"; };
 		F39006B65699DC554886CC6C /* Pods-iphone-settings-screen-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iphone-settings-screen-App.release.xcconfig"; path = "Target Support Files/Pods-iphone-settings-screen-App/Pods-iphone-settings-screen-App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 				40BCC8FE2934983300DFE4E7 /* SettingsView.swift */,
 				40BCC9002934985300DFE4E7 /* SettingTableViewCell.swift */,
 				40BCC9022934987B00DFE4E7 /* SettingSomeInfoOption.swift */,
+				40BCC9042934989B00DFE4E7 /* SettingTableFigure.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				40BCC9032934987B00DFE4E7 /* SettingSomeInfoOption.swift in Sources */,
 				40BCC8F82934978A00DFE4E7 /* SettingsSections.swift in Sources */,
 				40BCC8DC2934942F00DFE4E7 /* AppDelegate.swift in Sources */,
+				40BCC9052934989B00DFE4E7 /* SettingTableFigure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
