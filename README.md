@@ -1,4 +1,4 @@
-# iphone-settings-screen-App
+# iphone-settings-screen-clone
 
 ## Описание:
 Простое приложение "Экран настроек IPhone"
